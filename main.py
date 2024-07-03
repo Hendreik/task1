@@ -1,19 +1,35 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 # Практическое задание по уроку "Базовые структуры данных"
+
+# Задача 1 (просто) "Арифметика":
+#Предполагаемый результат: 15.0
+#########
+#########
+
+
+
+    print('"1st program"')
+    x=float(9**0.5)
+    x=x*5
+    print(f'{x}')
+
+##Задача 2 (просто) "Сравнение, or, and":
+    print('2st program')
+    if 9.99 > 9.98 and 1000 != 1000.1: print(bool(1))
+
+#Задача 3 (средне) "Сложная арифметика":
+#Дано два целых четырёхзначных числа:
+    i1=1234
+    i2=5678
+
+    x1=str(i1)
+    x2=str(i2)
+    print(f'"3rd program"')
+    x3 = x1[1]+x1[2]
+    x4 = x2[1]+x2[2]
+    print(f'{x3} + {x4} = {int(x3)+int(x4)}')
+#
+    y1 = int(i1/10) % (int(x1[0])*100)
+    y2 = int(i2/10) % (int(x2[0])*100)
+    print(f'{y1+y2}')
 
